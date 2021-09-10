@@ -1,0 +1,187 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Regular");
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Thin.ttf");
+    font-weight: thin;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("./font/Roboto-Italic.ttf");
+    font-style: italic;
+}
+
+nav{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: "Roboto", Serif;
+    font-weight: thin;
+    margin: 0px 15px;
+    
+}
+
+nav button, nav input, nav h1{
+
+    margin: 5px 0px;
+    
+
+}
+
+nav h1{
+
+    margin-left: 15px;
+
+}
+
+nav button{
+
+    background-color: #2b78e4;
+    color: white;
+    margin-right: 20px;
+
+
+}
+
+nav input{
+    /* padding-left: 20px; */
+    padding-right: 100px;;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction:row;
+
+}
+
+
+section container{
+    border: 3px solid black;
+    display: flex;
+    margin: 20px;
+    padding:10px;
+    
+
+}
+
+.left-panel{
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+
+.word{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2px;
+    margin-right: 10px;
+    padding: 2px;
+    white-space: pre-line;
+    /* max-height: 200px; */
+
+}
+
+.word h3, .word h1, .word button{
+    margin:0px;
+
+}
+
+.word h3{
+    
+    font-style: italic;
+
+}
+
+.word h5{
+
+    font-size:0.75em;
+    font-weight: normal;
+
+}
+
+.word h5 span{
+
+    font-style: italic;
+}
+
+.definition{
+    margin: 20px;
+    margin-right: 40px;
+    padding-right: 20px;
+
+}
+
+.like{
+
+    background-color: #ffd966;
+    padding: 5px;
+    color:black;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    box-shadow: 1px 1px black, -1px -1px black;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 0.8em;
+}
+
+a{
+    color: #457dae;
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
+
+sidebar{
+    
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    border: 3px solid black;
+    margin: 20px;
+    padding:10px;
+    padding-bottom:20px;
+    align-content: center;
+    align-items: center;
+    
+}
+
+sidebar div{
+
+    text-align: left;
+
+}
+
+sidebar button{
+
+    background-color: #93c47d;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: bold;
+    box-shadow: 1px 1px black, -1px -1px black;
+    
+}

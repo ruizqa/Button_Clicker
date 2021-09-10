@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./normalize.css">
+    </head>
+    <body>
+        <nav>
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button onclick="login(this)">Login</button>
+
+        </nav>
+
+        <section>
+            <div class="left-panel">
+                <container>
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h5>Plural: <span>ninjas</span></h5>
+                        <button class="like" onclick="like(this)">13 likes</button>
+                    </div>
+                    
+                    <div class="definition">
+                        <h3>A practitioner skilled in the <a>Japanese</a> art of <a>ninjiutsu</a></h3>
+                    </div>
+                </container>
+
+                <container>
+                    <div class="word">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h5>Plural: <span>ninjas</span></h5>
+                        <button class="like" onclick="like(this)">37 likes</button>
+                    </div>
+                        
+                    <div class="definition">
+                        <h3>A <a>programmer</a> who breaks down problems with <a>zen</a>-like focus</h3>
+                    </div>
+                </container>
+
+            </div>
+
+            <sidebar>
+
+                <div>
+                    <h2>Dojonary is defined by <span>YOU</span></h2>
+                </div>
+                <div>
+                    <button onclick="remove(this)">Add Definition</button>
+                </div>
+
+            </sidebar>
+
+        </section>
+        
+        <script src="./main.js" async defer></script>
+    </body>
+</html>
